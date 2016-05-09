@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "modernizr",
+  "version": "1.0.0",
+  "description": "Build Modernizr JS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "modernizr": "modernizr -c ./src/config.json -d ./dist/modernizr-custom.min.js"
+  }
+}
